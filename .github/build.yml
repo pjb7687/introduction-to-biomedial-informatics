@@ -1,0 +1,34 @@
+name: Build HonKit Book
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Build HonKit book
+      run: npx honkit build
+
+    - name: Upload book as artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: honkit-book
+        path: ./_book
