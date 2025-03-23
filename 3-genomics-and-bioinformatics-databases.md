@@ -12,14 +12,14 @@
 - 유럽 생물정보학 연구소(The European Bioinformatics Institute, EBI)
 - 웰컴 생거 연구소(The Wellcome Sanger Institute)
 - 제브라피시 모델 생물 데이터베이스(The Zebrafish Model Organism Database)
-- 들쥐 유전체 데이터베이스(The Rat Genome Database)
+- 시궁쥐 유전체 데이터베이스(The Rat Genome Database)
 
 GRC에서 관리하는 주요 생물종의 표준 유전체는 다음과 같다:
 - 인간(Homo Sapiens): GRCh38.p14
 - 생쥐(Mus Musculus): GRCm39
 - 제브라피시(Danio Rerio): GRCz11
 - 닭(Gallus Gallus): GRCg6a
-- 들쥐(Rattus Norvegicus): GRCr8
+- 시궁쥐(Rattus Norvegicus): GRCr8
 
 ### 3.1.2 모델 생물
 
