@@ -179,6 +179,9 @@ DNA 변이가 단백질 코딩 영역에 발생하면 아미노산 변화를 일
 - 무의미 변이(Nonsense variant): 정지코돈으로 변화
 - 프레임시프트 변이(Frameshift variant): 삽입/결실로 인한 읽기틀 변화
 
+**코돈**
+코돈(Codon)은 하나의 아미노산을 지정하는 3개의 연속된 염기서열을 말한다. 64개의 가능한 코돈 중 61개는 아미노산을 암호화하고, 3개는 번역 종료를 나타내는 정지코돈이다. DNA 변이는 코돈의 변화를 유발할 수 있다.
+
 ![코돈](../assets/images/codons.png)
 
 **Figure 2.18** 코돈 - 코돈의 개념
@@ -186,22 +189,6 @@ DNA 변이가 단백질 코딩 영역에 발생하면 아미노산 변화를 일
 ![유전 코돈표](../assets/images/iupac-codes.png)
 
 **Figure 2.19** 유전 코돈표 - 유전 암호와 아미노산 대응
-
-![전사 과정](../assets/images/transcription.png)
-
-**Figure 2.20** 전사 과정 - DNA에서 RNA로의 정보 전달
-
-![번역 과정](../assets/images/translation.png)
-
-**Figure 2.21** 번역 과정 - RNA에서 단백질로의 정보 전달
-
-![DNA 복제 포크](../assets/images/replication-fork.png)
-
-**Figure 2.22** DNA 복제 포크 - DNA 복제 과정의 분자적 메커니즘
-
-![현미경으로 관찰한 복제 포크](../assets/images/replication-fork-microscope.png)
-
-**Figure 2.23** 현미경으로 관찰한 복제 포크 - 실제 DNA 복제 구조
 
 ## 2.3 인구집단 유전학 연구와 데이터베이스
 
