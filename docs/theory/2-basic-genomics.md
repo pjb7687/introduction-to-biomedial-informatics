@@ -31,6 +31,8 @@ GRC에서 관리하는 주요 생물종의 표준 유전체는 다음과 같다:
 
 ![GRC 기관들](../assets/images/grc-institutes.png)
 
+**Figure 2.3** GRC 기관들 - 유전체 참조 컨소시엄을 구성하는 주요 기관들
+
 ### 2.1.2 모델 생물
 
 생명과학 연구에서는 다양한 모델 생물이 사용되며, 각 모델 생물에 대한 전문 데이터베이스가 존재한다:
@@ -41,10 +43,6 @@ GRC에서 관리하는 주요 생물종의 표준 유전체는 다음과 같다:
 - Saccharomyces Genome Database (SGD): 효모(Saccharomyces Cerevisiae) 관련 데이터베이스
 
 위에서 언급한 생쥐와 제브라피시도 중요한 모델 생물이다.
-
-![세포 구조](../assets/images/cell-structures.png)
-
-**Figure 2.3** 세포 구조 - 진핵세포와 원핵세포의 기본 구조
 
 ### 2.1.3 유전체 브라우저
 

@@ -45,15 +45,20 @@
 ![로버트 훅의 코르크 관찰 - 세포의 최초 발견](assets/images/hooke-cork.png)
 
 **Figure 1.5** 로버트 훅의 코르크 관찰 - 세포(cell)의 최초 발견 (1665년)
+
+![세포 구조](assets/images/cell-structures.png)
+
+**Figure 1.6** 세포 구조 - 진핵세포와 원핵세포의 기본 구조
+
 - **분자생물학**: 세포의 내부를 관찰함으로써 DNA, RNA, 단백질 등의 분자를 발견하였다. DNA에서 RNA로, 그리고 단백질로 유전정보가 이어진다는 중심원리(Central Dogma)가 확립되었다. 이는 생명 현상을 이해하는 기본 틀이 되었다.
 
 ![Central Dogma - 유전정보의 흐름](assets/images/central-theorem.png)
 
-**Figure 1.6** Central Dogma - DNA에서 RNA, 단백질로 이어지는 유전정보의 플름
+**Figure 1.7** Central Dogma - DNA에서 RNA, 단백질로 이어지는 유전정보의 플름
 
 ![Central Dogma의 세부 메커니즘](assets/images/central-theorem-2.jpg)
 
-**Figure 1.7** Central Dogma의 세부 메커니즘 - 전사와 번역 과정
+**Figure 1.8** Central Dogma의 세부 메커니즘 - 전사와 번역 과정
 
 DNA가 생명의 설계도라는 것이 알려진 이후, 컴퓨터를 기반으로 이를 분석함으로써 생명을 이해해보려 하는 시도가 생겨났다. 이는 곧 현대 생물학의 중요한 관심사로 떠오르게 되었으며, "생명정보학" 이 등장하게 되는 계기가 되었다.
 
@@ -61,7 +66,7 @@ DNA가 생명의 설계도라는 것이 알려진 이후, 컴퓨터를 기반으
 
 ![데이터 축적량의 증가](assets/images/accumulation-of-data-nlm.png)
 
-**Figure 1.8** 생명과학 분야 데이터 축적량의 급격한 증가 (출처: NIH/NLM)
+**Figure 1.9** 생명과학 분야 데이터 축적량의 급격한 증가 (출처: NIH/NLM)
 
 ## 1.3 체학
 
@@ -89,7 +94,7 @@ DNA가 생명의 설계도라는 것이 알려진 이후, 컴퓨터를 기반으
 
 ![인간 유전체 해독 비용의 급격한 감소](assets/images/cost-per-human-genome.png)
 
-**Figure 1.9** 인간 유전체 해독 비용의 급격한 감소 (2001-2021)
+**Figure 1.10** 인간 유전체 해독 비용의 급격한 감소 (2001-2021)
 
 이외에도 기술의 진보는 다양한 -체학 분야에서 대량의 데이터 생산을 가능하게 하고 있다:
 - **유전체학/후성유전체학**: 차세대 시퀀싱(Next Generation Sequencing) 기술의 발전
@@ -102,13 +107,13 @@ DNA가 생명의 설계도라는 것이 알려진 이후, 컴퓨터를 기반으
 
 ![CpG Island 메틸화와 유전자 발현 조절](assets/images/cpg-island.jpg)
 
-**Figure 1.10** CpG Island 메틸화와 유전자 발현 조절 메커니즘 
+**Figure 1.11** CpG Island 메틸화와 유전자 발현 조절 메커니즘 
 
 이러한 CpG island의 메틸화(methylation) 패턴은 유전자 발현 조절에 중요한 역할을 하며, 비정상적인 메틸화는 암의 발생과 밀접한 연관이 있다. 특히, 종양 억제 유전자의 프로모터 부위에 있는 CpG island가 과메틸화(hypermethylation)되면 해당 유전자의 발현이 억제되어 암 발생 위험이 증가할 수 있다. 반대로, 암 유전자(oncogene)의 프로모터 부위에 있는 CpG island가 저메틸화(hypomethylation)되면 해당 유전자의 발현이 증가하여 암 발생 위험이 증가할 수 있다.
 
 ![정상 세포와 암세포에서의 메틸화 패턴 차이](assets/images/methelation.jpg)
 
-**Figure 1.11** 정상 대장 상피세포와 대장암에서의 메틸화 패턴 차이
+**Figure 1.12** 정상 대장 상피세포와 대장암에서의 메틸화 패턴 차이
 
 ## 1.4 이미지 데이터
 
@@ -116,7 +121,7 @@ DNA가 생명의 설계도라는 것이 알려진 이후, 컴퓨터를 기반으
 
 ![주요 이미징 기술](assets/images/imaging-techniques.png)
 
-**Figure 1.12** 주요 이미징 기술 - 밝은 시야 이미징, 위상차 이미징, 형광 이미징
+**Figure 1.13** 주요 이미징 기술 - 밝은 시야 이미징, 위상차 이미징, 형광 이미징
 
 주요 이미징 기술로는 다음과 같은 것들이 있다:
 
@@ -124,19 +129,19 @@ DNA가 생명의 설계도라는 것이 알려진 이후, 컴퓨터를 기반으
 
 ![밝은 시야 현미경으로 관찰한 세포 구조](assets/images/bright-field.jpg)
 
-**Figure 1.13** 밝은 시야 현미경법으로 관찰한 식물 세포 구조
+**Figure 1.14** 밝은 시야 현미경법으로 관찰한 식물 세포 구조
 
 - **위상차 현미경법(Phase Contrast Microscopy)**: 투명한 생체 시료의 위상차를 이용하여 염색 없이도 세포 구조를 선명하게 관찰할 수 있는 기술이다. 살아있는 세포의 동적 변화를 실시간으로 관찰하는 데 특히 유용하다.
 
 ![위상차 현미경으로 관찰한 세포](assets/images/phase-contract-imaging.jpg)
 
-**Figure 1.14** 위상차 현미경법으로 관찰한 살아있는 세포
+**Figure 1.15** 위상차 현미경법으로 관찰한 살아있는 세포
 
 - **형광 현미경법(Fluorescence Microscopy)**: 형광 염료나 단백질을 사용하여 특정 세포 구조나 단백질을 표지하고, 특정 파장의 빛을 조사하여 형광 신호를 관찰하는 기술이다. 이를 통해 특정 단백질의 위치, 상호작용, 발현 양상 등을 시각화할 수 있다.
 
 ![형광 현미경을 이용한 다중 채널 이미징](assets/images/fluorescence-imaging.jpg)
 
-**Figure 1.15** 형광 현미경을 이용한 다중 채널 이미징 (Nucleus, Vimentin, Actin)
+**Figure 1.16** 형광 현미경을 이용한 다중 채널 이미징 (Nucleus, Vimentin, Actin)
 
 이러한 이미지 데이터는 세포 및 조직 수준에서의 생물학적 현상을 이해하는 데 중요한 정보를 제공하며, 최근에는 딥러닝과 같은 인공지능 기술을 활용한 이미지 분석이 활발히 연구되고 있다.
 
@@ -148,19 +153,19 @@ DNA가 생명의 설계도라는 것이 알려진 이후, 컴퓨터를 기반으
 
 ![X선 결정학 과정 - 결정에서 원자 모델까지](assets/images/xrd.png)
 
-**Figure 1.16** X선 결정학 과정 - 결정에서 원자 모델까지
+**Figure 1.17** X선 결정학 과정 - 결정에서 원자 모델까지
 
 - **극저온 전자현미경법(Cryo-Electron Microscopy, Cryo-EM)**: 단백질 시료를 초저온으로 급속 동결시킨 후 전자현미경으로 관찰하는 기술이다. 최근 기술의 발전으로 원자 수준의 해상도를 달성할 수 있게 되었으며, 결정화가 어려운 큰 단백질 복합체 구조 연구에 특히 유용하다. 이 기술의 혁신성을 인정받아 2017년 노벨 화학상을 수상했다.
 
 ![2017년 노벨 화학상 수상자들 - Cryo-EM 기술 개발](assets/images/cryo-em-nobel-prize.jpg)
 
-**Figure 1.17** 2017년 노벨 화학상 수상자들 - Cryo-EM 기술 개발
+**Figure 1.18** 2017년 노벨 화학상 수상자들 - Cryo-EM 기술 개발
 
 - **단백질 접힘 예측(Protein Folding)**: 컴퓨터 알고리즘을 이용하여 단백질의 아미노산 서열로부터 3차원 구조를 예측하는 기술이다. 최근 DeepMind의 AlphaFold2와 같은 인공지능 기반 접근법이 획기적인 성과를 보이며 단백질 구조 생물학 분야에 혁명을 일으키고 있다.
 
 ![AlphaFold - 50년간의 단백질 구조 예측 문제 해결](assets/images/alphafold.png)
 
-**Figure 1.18** AlphaFold - 50년간의 단백질 구조 예측 문제 해결
+**Figure 1.19** AlphaFold - 50년간의 단백질 구조 예측 문제 해결
 
 이러한 구조 데이터는 PDB(Protein Data Bank)와 같은 데이터베이스에 저장되어 연구자들이 공유하고 활용할 수 있다.
 
@@ -180,7 +185,7 @@ EMR은 의료 데이터의 핵심으로, 환자 케어의 연속성을 보장하
 
 ![전자의무기록(EMR) 시스템 인터페이스](assets/images/emr.jpg)
 
-**Figure 1.19** 전자의무기록(EMR) 시스템 인터페이스
+**Figure 1.20** 전자의무기록(EMR) 시스템 인터페이스
 
 ### 1.6.2 국제질병분류(International Classification of Diseases, ICD)
 
@@ -191,7 +196,7 @@ ICD는 질병 진단을 위한 국제 표준 코드 시스템이다:
 
 ![ICD-11 질병 분류 시스템](assets/images/icd.png)
 
-**Figure 1.20** ICD-11 질병 분류 시스템 (결핵 관련 코드 예시)
+**Figure 1.21** ICD-11 질병 분류 시스템 (결핵 관련 코드 예시)
 
 이 표준화된 코드 시스템은 의료 데이터의 일관성을 유지하고, 국제적인 데이터 공유와 비교를 가능하게 한다.
 
@@ -204,11 +209,11 @@ DICOM(Digital Imaging and Communications in Medicine)은 표준 의료영상/기
 
 ![X-ray 영상](assets/images/x-ray.jpg)
 
-**Figure 1.21** X-ray 영상 - 의료 영상의 기본적인 형태
+**Figure 1.22** X-ray 영상 - 의료 영상의 기본적인 형태
 
 ![DICOM 뷰어를 통한 의료 영상 데이터 관리](assets/images/dicom.jpg)
 
-**Figure 1.22** DICOM 뷰어를 통한 의료 영상 데이터 관리
+**Figure 1.23** DICOM 뷰어를 통한 의료 영상 데이터 관리
 
 ### 1.6.4 비디지털 데이터와 그 처리
 
@@ -217,7 +222,7 @@ DICOM(Digital Imaging and Communications in Medicine)은 표준 의료영상/기
 
 ![의사의 손글씨 진료 기록](assets/images/doctor-handwriting.jpg)
 
-**Figure 1.23** 의사의 손글씨 진료 기록 - 비디지털 의료 데이터의 예
+**Figure 1.24** 의사의 손글씨 진료 기록 - 비디지털 의료 데이터의 예
 - 이러한 데이터를 일일이 디지털 포맷으로 변환하는 것은 매우 어렵다.
 - 이를 해결하기 위해 영상처리/필기인식 기술과 자연어 처리 기술이 활용되고 있다.
 
@@ -238,4 +243,4 @@ DICOM(Digital Imaging and Communications in Medicine)은 표준 의료영상/기
 
 ![계산생물학자의 역할 변화](assets/images/compbio-role-shift.png)
 
-**Figure 1.24** 계산생물학자의 역할 변화 - 과거 보조적 역할에서 현재 연구 주도적 역할로
+**Figure 1.25** 계산생물학자의 역할 변화 - 과거 보조적 역할에서 현재 연구 주도적 역할로
