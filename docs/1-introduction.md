@@ -63,10 +63,6 @@ DNA가 생명의 설계도라는 것이 알려진 이후, 컴퓨터를 기반으
 
 **Figure 1.8** 생명과학 분야 데이터 축적량의 급격한 증가 (출처: NIH/NLM)
 
-![](assets/images/cost-per-human-genome.png)
-
-**Figure 1.9** 인간 유전체 시퀀싱 비용의 급격한 감소 (2001-2020)
-
 ## 1.3 체학
 
 ### 1.3.1 "-체(-ome)"과 "-체학(-omics)"의 개념
@@ -93,7 +89,7 @@ DNA가 생명의 설계도라는 것이 알려진 이후, 컴퓨터를 기반으
 
 ![인간 유전체 해독 비용의 급격한 감소](assets/images/cost-per-human-genome.png)
 
-**Figure 1.10** 인간 유전체 해독 비용의 급격한 감소 (2001-2021)
+**Figure 1.9** 인간 유전체 해독 비용의 급격한 감소 (2001-2021)
 
 이외에도 기술의 진보는 다양한 -체학 분야에서 대량의 데이터 생산을 가능하게 하고 있다:
 - **유전체학/후성유전체학**: 차세대 시퀀싱(Next Generation Sequencing) 기술의 발전
@@ -106,19 +102,21 @@ DNA가 생명의 설계도라는 것이 알려진 이후, 컴퓨터를 기반으
 
 ![CpG Island 메틸화와 유전자 발현 조절](assets/images/cpg-island.jpg)
 
-**Figure 1.11** CpG Island 메틸화와 유전자 발현 조절 메커니즘 
+**Figure 1.10** CpG Island 메틸화와 유전자 발현 조절 메커니즘 
 
 이러한 CpG island의 메틸화(methylation) 패턴은 유전자 발현 조절에 중요한 역할을 하며, 비정상적인 메틸화는 암의 발생과 밀접한 연관이 있다. 특히, 종양 억제 유전자의 프로모터 부위에 있는 CpG island가 과메틸화(hypermethylation)되면 해당 유전자의 발현이 억제되어 암 발생 위험이 증가할 수 있다. 반대로, 암 유전자(oncogene)의 프로모터 부위에 있는 CpG island가 저메틸화(hypomethylation)되면 해당 유전자의 발현이 증가하여 암 발생 위험이 증가할 수 있다.
 
 ![정상 세포와 암세포에서의 메틸화 패턴 차이](assets/images/methelation.jpg)
 
-**Figure 1.12** 정상 대장 상피세포와 대장암에서의 메틸화 패턴 차이
+**Figure 1.11** 정상 대장 상피세포와 대장암에서의 메틸화 패턴 차이
 
 ## 1.4 이미지 데이터
 
 의생명정보학에서는 이미지 데이터 분석 또한 중요한 영역을 차지한다.
 
-![](../assets/images/imaging-techniques.png)
+![주요 이미징 기술](assets/images/imaging-techniques.png)
+
+**Figure 1.12** 주요 이미징 기술 - 밝은 시야 이미징, 위상차 이미징, 형광 이미징
 
 주요 이미징 기술로는 다음과 같은 것들이 있다:
 
