@@ -14,10 +14,6 @@
 
 **Figure 2.2** DNA의 방향성 - 5'에서 3' 방향으로의 정보 흐름
 
-![IUPAC 염기 코드](../assets/images/iupac-codes.png)
-
-**Figure 2.3** IUPAC 염기 코드 - 표준 핵산 표기법
-
 유전체 참조 컨소시엄(Genome Reference Consortium, GRC)은 표준 유전체의 구축과 관리를 담당하는 국제 조직으로, 다음과 같은 기관들로 구성되어 있다:
 - 미국 국립생물정보센터(The National Center for Biotechnology Information, NCBI)
 - 워싱턴 대학교 맥도넬 유전체 연구소(The McDonnell Genome Institute at Washington University, MGI)
@@ -48,7 +44,7 @@ GRC에서 관리하는 주요 생물종의 표준 유전체는 다음과 같다:
 
 ![세포 구조](../assets/images/cell-structures.png)
 
-**Figure 2.4** 세포 구조 - 진핵세포와 원핵세포의 기본 구조
+**Figure 2.3** 세포 구조 - 진핵세포와 원핵세포의 기본 구조
 
 ### 2.1.3 유전체 브라우저
 
@@ -58,13 +54,13 @@ GRC에서 관리하는 주요 생물종의 표준 유전체는 다음과 같다:
 
 ![Ensembl Genome Browser](../assets/images/ensembl-genome-browser.png)
 
-**Figure 2.5** Ensembl Genome Browser - 유전체 데이터 시각화 인터페이스
+**Figure 2.4** Ensembl Genome Browser - 유전체 데이터 시각화 인터페이스
 
 - UCSC Genome Browser: 미국 캘리포니아 산타크루즈 대학에서 개발한 브라우저
 
 ![UCSC Genome Browser](../assets/images/ucsc-genome-browser.png)
 
-**Figure 2.6** UCSC Genome Browser - 통합 유전체 정보 시스템
+**Figure 2.5** UCSC Genome Browser - 통합 유전체 정보 시스템
 
 ## 2.2 유전적 다양성과 변이
 
@@ -74,13 +70,13 @@ GRC에서 관리하는 주요 생물종의 표준 유전체는 다음과 같다:
 
 ![핵형 분석](../assets/images/karyotype.png)
 
-**Figure 2.7** 핵형 분석 - 인간 염색체 핵형 분석 결과
+**Figure 2.6** 핵형 분석 - 인간 염색체 핵형 분석 결과
 
 배수성(Ploidy)은 세포 내 염색체 세트의 수를 나타낸다:
 
 ![배수성](../assets/images/ploidy.png)
 
-**Figure 2.8** 배수성 - 염색체 세트 수에 따른 분류
+**Figure 2.7** 배수성 - 염색체 세트 수에 따른 분류
 - 단배체(Haploid): 1개의 염색체 세트
 - 이배체(Diploid): 2개의 염색체 세트
 - 삼배체(Triploid): 3개의 염색체 세트
@@ -98,7 +94,7 @@ GRC에서 관리하는 주요 생물종의 표준 유전체는 다음과 같다:
 
 ![대립유전자](../assets/images/allele.png)
 
-**Figure 2.9** 대립유전자 - 같은 유전자의 다른 형태
+**Figure 2.8** 대립유전자 - 같은 유전자의 다른 형태
 
 만약 우리가 유전형으로부터 표현형을 완벽하게 예측해낼 수 있다면, 이는 곧 데이터로부터 생명이라는 현상을 완전히 이해하게 되는 것으로 이해할 수 있다.
 이는 사실상 생명정보학이 달성하고자 하는 궁극적인 목표라고도 볼 수 있을 것이다.
@@ -111,21 +107,21 @@ GRC에서 관리하는 주요 생물종의 표준 유전체는 다음과 같다:
 
 ![단일염기변이](../assets/images/snv.png)
 
-**Figure 2.10** 단일염기변이(SNV) - 단일 염기의 치환
+**Figure 2.9** 단일염기변이(SNV) - 단일 염기의 치환
 
 ![이형접합자 SNV](../assets/images/heterozygous-snv.png)
 
-**Figure 2.11** 이형접합자 SNV - 두 개의 다른 대립유전자를 가진 단일염기변이
+**Figure 2.10** 이형접합자 SNV - 두 개의 다른 대립유전자를 가진 단일염기변이
 
 - 삽입 및 결실(Insertions and Deletions, INDELs): DNA 서열의 삽입 또는 결실
 
 ![삽입결실변이](../assets/images/indel.png)
 
-**Figure 2.12** 삽입결실변이(INDEL) - 작은 서열의 삽입 또는 결실
+**Figure 2.11** 삽입결실변이(INDEL) - 작은 서열의 삽입 또는 결실
 
 ![결실변이](../assets/images/deletion.png)
 
-**Figure 2.13** 결실변이 - DNA 서열의 결실
+**Figure 2.12** 결실변이 - DNA 서열의 결실
 
 - 구조적 변이(Structural Variations, SVs):
   - 복제수 변이(Copy Number Variations, CNVs): DNA 서열의 복사 수 변화
@@ -133,17 +129,17 @@ GRC에서 관리하는 주요 생물종의 표준 유전체는 다음과 같다:
 
 ![대규모 중복](../assets/images/large-duplication.png)
 
-**Figure 2.14** 대규모 중복 - 큰 DNA 서열의 복사수 증가
+**Figure 2.13** 대규모 중복 - 큰 DNA 서열의 복사수 증가
 
   - 전위(Translocations), 역위(Inversions) 등
 
 ![염색체 전좌](../assets/images/translocation.png)
 
-**Figure 2.15** 염색체 전좌 - 염색체 간 서열 이동
+**Figure 2.14** 염색체 전좌 - 염색체 간 서열 이동
 
 ![염색체 역위](../assets/images/inversion.png)
 
-**Figure 2.16** 염색체 역위 - 염색체 내 서열 방향 뒤바뀜
+**Figure 2.15** 염색체 역위 - 염색체 내 서열 방향 뒤바뀜
 
 유전적 변이는 발생 위치에 따라 다음과 같이 분류할 수 있다:
 
@@ -152,14 +148,14 @@ GRC에서 관리하는 주요 생물종의 표준 유전체는 다음과 같다:
 
 ![체세포변이와 생식계변이](../assets/images/somatic-and-germline.png)
 
-**Figure 2.17** 체세포변이와 생식계변이 - 변이 발생 위치에 따른 분류
+**Figure 2.16** 체세포변이와 생식계변이 - 변이 발생 위치에 따른 분류
 
 단일 염기 다형성(Single Nucleotide Polymorphism, SNPs)은 인구 집단에서 흔하게 발견되는 생식계 SNV를 의미한다. 이와 관련된 중요한
 개념으로 소수 대립유전자 빈도(Minor Allele Frequency, MAF)가 있으며, 이는 인구 집단 내에서 소수 변이 대립유전자의 빈도를 나타낸다.
 
 ![단일염기다형성](../assets/images/snp.png)
 
-**Figure 2.18** 단일염기다형성(SNP) - 집단에서 흔한 유전적 변이
+**Figure 2.17** 단일염기다형성(SNP) - 집단에서 흔한 유전적 변이
 
 #### 변이 표기법
 
@@ -183,7 +179,11 @@ DNA 변이가 단백질 코딩 영역에 발생하면 아미노산 변화를 일
 - 무의미 변이(Nonsense variant): 정지코돈으로 변화
 - 프레임시프트 변이(Frameshift variant): 삽입/결실로 인한 읽기틀 변화
 
-![유전 코돈표](../assets/images/codons.png)
+![코돈](../assets/images/codons.png)
+
+**Figure 2.18** 코돈 - 코돈의 개념
+
+![유전 코돈표](../assets/images/iupac-codes.png)
 
 **Figure 2.19** 유전 코돈표 - 유전 암호와 아미노산 대응
 
@@ -205,9 +205,9 @@ DNA 변이가 단백질 코딩 영역에 발생하면 아미노산 변화를 일
 
 ## 2.3 인구집단 유전학 연구와 데이터베이스
 
-### 2.3.1 1000 유전체 프로젝트(1000 Genome Project)
+### 2.3.1 1000 지놈 프로젝트(1000 Genome Project)
 
-1000 유전체 프로젝트는 2008년 1월 미국, 영국, 중국의 협력으로 시작되었다. 초기에는 14개 인구집단에서 약 1,000명의 개인 유전체를 시퀀싱했으며(https://www.nature.com/articles/nature11632), 현재는 25개 인구집단에서 약 13,000명의 유전체가 시퀀싱되었다(https://www.internationalgenome.org/data-portal/sample). 이 프로젝트를 통해 변이 호출 포맷(Variant Call Format, VCF)이 탄생했다.
+1000 지놈 프로젝트는 2008년 1월 미국, 영국, 중국의 협력으로 시작되었다. 초기에는 14개 인구집단에서 약 1,000명의 개인 유전체를 시퀀싱했으며(https://www.nature.com/articles/nature11632), 현재는 25개 인구집단에서 약 13,000명의 유전체가 시퀀싱되었다(https://www.internationalgenome.org/data-portal/sample). 이 프로젝트를 통해 변이 호출 포맷(Variant Call Format, VCF)이 탄생했다.
 
 ![1000 Genomes Project](../assets/images/1000genomes.png)
 
@@ -227,7 +227,7 @@ DNA 변이가 단백질 코딩 영역에 발생하면 아미노산 변화를 일
 
 ### 2.3.3 dbSNP
 
-dbSNP는 SNP를 포함한 소규모 변이의 무료 공개 데이터베이스로, 이미 1000 유전체 프로젝트, gnomAD 등의 데이터를 포함하고 있으며, 대립유전자 빈도도 제공한다. 이 데이터베이스는 미국 국립생물정보센터(NCBI)와 국립 인간 유전체 연구소(National Human Genome Research Institute, NHGRI)에서 관리한다.
+dbSNP는 SNP를 포함한 소규모 변이의 무료 공개 데이터베이스로, 이미 1000 지놈 프로젝트, gnomAD 등의 데이터를 포함하고 있으며, 대립유전자 빈도도 제공한다. 이 데이터베이스는 미국 국립생물정보센터(NCBI)와 국립 인간 유전체 연구소(National Human Genome Research Institute, NHGRI)에서 관리한다.
 
 ### 2.3.4 유전적 질환 관련 데이터베이스
 
