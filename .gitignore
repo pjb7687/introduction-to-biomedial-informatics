@@ -1,2 +1,10 @@
+.claude
+CLAUDE.md
+AGENTS.md
+*.py
 _book
 build.sh
+pdfs
+jpgs
+ppts
+node_modules
