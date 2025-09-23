@@ -220,17 +220,17 @@ dbSNP는 SNP를 포함한 소규모 변이의 무료 공개 데이터베이스�
 ### 2.3.4 유전적 질환 관련 데이터베이스
 
 유전적 질환과 관련된 중요한 데이터베이스는 다음과 같다:
-- Online Mendelian Inheritance in Man (OMIM): 멘델의 법칙을 따르는 유전질환 데이터베이스
+- Online Mendelian Inheritance in Man (OMIM): 인간의 유전자, 유전적 질환, 그리고 이들 간의 관계에 대한 종합적인 온라인 데이터베이스
 
 ![OMIM 데이터베이스](../assets/images/omim.png)
 
-**Figure 2.27** OMIM 데이터베이스 - 멘델성 유전질환 정보
+**Figure 2.27** OMIM 데이터베이스
 
 - ClinVar: NCBI에서 관리하는 유전변이와 질병 관계 데이터베이스
 
 ![ClinVar 데이터베이스](../assets/images/clinvar.png)
 
-**Figure 2.28** ClinVar 데이터베이스 - 유전변이의 임상적 의미
+**Figure 2.28** ClinVar 데이터베이스
 
 ### 2.3.5 희귀 변이 및 국가별 연구
 
