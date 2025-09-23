@@ -93,7 +93,7 @@ HiFi 시퀀싱은 Long Read 기술임에도 불구하고 Illumina에 필적하�
 
 ![미토콘드리아 유전체 조립](../assets/images/genome-assembly-of-mitochondria-circular-plot.png)
 
-**Figure 14.20** 미토콘드리아 유전체 조립 - 미토콘드리아 유전체의 원형 구조와 유전자 배치를 보여주는 원형 플롯
+**Figure 3.8** 미토콘드리아 유전체 조립 - 미토콘드리아 유전체의 원형 구조와 유전자 배치를 보여주는 원형 플롯
 
 ## 3.3 Illumina 시퀀싱 시스템의 구조
 
@@ -105,7 +105,7 @@ Illumina 시퀀싱의 핵심 구성 요소인 플로우 셀(flow cell)은 유리
 
 ![Illumina 시퀀싱 칩](../assets/images/illumina-sequencing-chip.png)
 
-**Figure 3.8** Illumina 시퀀싱 칩 - 플로우 셀의 물리적 구조
+**Figure 3.9** Illumina 시퀀싱 칩 - 플로우 셀의 물리적 구조
 
 ## 3.4 NGS 시퀀싱 라이브러리의 구조
 
@@ -113,7 +113,7 @@ NGS 분석을 위해서는 DNA 또는 RNA 샘플을 시퀀싱 라이브러리로
 
 ![Illumina 라이브러리 구조와 시퀀싱](../assets/images/illumina-library-structure-and-sequencing.png)
 
-**Figure 3.9** Illumina 라이브러리 구조와 시퀀싱 - 어댑터 시퀀스와 기능적 요소들
+**Figure 3.10** Illumina 라이브러리 구조와 시퀀싱 - 어댑터 시퀀스와 기능적 요소들
 
 ### 3.4.1 라이브러리 어댑터 구성요소
 
@@ -142,7 +142,7 @@ Illumina 라이브러리에서 P5와 P7 시퀀스는 DNA 단편의 양쪽 끝에
 
 ![시퀀싱 프라이머 요구사항](../assets/images/primer-requirment-for-sequencing.png)
 
-**Figure 3.10** 시퀀싱 프라이머 요구사항 - 시퀀싱 반응 시작을 위한 프라이머 결합 부위
+**Figure 3.11** 시퀀싱 프라이머 요구사항 - 시퀀싱 반응 시작을 위한 프라이머 결합 부위
 
 ## 3.5 시퀀싱 리드의 특성과 유형
 
@@ -150,7 +150,7 @@ Illumina 시퀀싱에서 Read 1과 Read 2는 각각 다른 시퀀싱 프라이�
 
 ![Read1과 Read2](../assets/images/read1-and-read2.png)
 
-**Figure 3.11** Read1과 Read2 - DNA 단편 양쪽 끝에서의 시퀀싱 방향
+**Figure 3.12** Read1과 Read2 - DNA 단편 양쪽 끝에서의 시퀀싱 방향
 
 일반적인 Illumina 시퀀싱은 각 방향에서 75bp, 100bp, 150bp 또는 250bp를 읽는다. 리드 길이는 시퀀서 모델과 키트에 따라 달라지며, 더 긴 리드는 더 많은 정보를 제공하지만 시퀀싱 비용이 증가한다.
 
@@ -164,11 +164,11 @@ DNA 삽입물(insert)이 리드 길이보다 짧은 경우, 리드가 반대쪽 
 
 ![싱글 엔드와 페어드 엔드](../assets/images/single-and-paired-end.png)
 
-**Figure 3.12** 싱글 엔드와 페어드 엔드 시퀀싱 - 두 방식의 차이점과 특징
+**Figure 3.13** 싱글 엔드와 페어드 엔드 시퀀싱 - 두 방식의 차이점과 특징
 
 ![페어드 엔드 시퀀싱 세부](../assets/images/paired-end-sequencing-2.png)
 
-**Figure 3.13** 페어드 엔드 시퀀싱 세부 - 구조적 변이 감지를 위한 리드 쌍 분석
+**Figure 3.14** 페어드 엔드 시퀀싱 세부 - 구조적 변이 감지를 위한 리드 쌍 분석
 
 ## 3.6 Fastq 파일 형식과 구조
 
@@ -181,7 +181,7 @@ Fastq는 시퀀싱 데이터를 저장하는 표준 파일 형식으로, 시퀀�
 
 ![Fastq Illumina 형식](../assets/images/fastq-illumina.png)
 
-**Figure 3.14** Fastq Illumina 형식 - 시퀀싱 데이터의 표준 파일 형식과 구조
+**Figure 3.15** Fastq Illumina 형식 - 시퀀싱 데이터의 표준 파일 형식과 구조
 
 두 번째 줄은 시퀀싱된 염기 서열을 포함하며, 세 번째 줄은 '+' 문자로 시작한다. 네 번째 줄은 두 번째 줄의 각 염기에 대한 품질 점수를 ASCII 문자로 인코딩하여 포함한다.
 
@@ -209,13 +209,13 @@ NTAATCAATACGCCGCGGTTAGATN
 
 ![Phred 점수](../assets/images/phred-score.png)
 
-**Figure 3.15** Phred 점수 - 염기 호출 품질을 나타내는 지표
+**Figure 3.16** Phred 점수 - 염기 호출 품질을 나타내는 지표
 
 ASCII 문자는 Phred 점수를 나타내는 데 사용되며, 현재 표준인 Illumina 1.8+ 형식은 ASCII 33 오프셋(! = Q0, " = Q1, ... J = Q41, ...)을 사용한다. 이러한 품질 점수는 다운스트림 분석에서 필터링, 트리밍, 변이 호출 신뢰도 측정에 사용된다.
 
 ![ASCII 코드와 Phred 점수](../assets/images/ascii-codes-for-phred-score.png)
 
-**Figure 3.16** ASCII 코드와 Phred 점수 - 품질 점수의 ASCII 문자 인코딩
+**Figure 3.17** ASCII 코드와 Phred 점수 - 품질 점수의 ASCII 문자 인코딩
 
 ## 3.7 NGS 데이터의 정렬과 알고리즘
 
@@ -225,7 +225,7 @@ ASCII 문자는 Phred 점수를 나타내는 데 사용되며, 현재 표준인 
 
 ![BLAST 알고리즘](../assets/images/blast.png)
 
-**Figure 3.17** BLAST 알고리즘 - 서열 유사성 검색을 위한 휴리스틱 접근법
+**Figure 3.18** BLAST 알고리즘 - 서열 유사성 검색을 위한 휴리스틱 접근법
 
 다양한 정렬 도구가 사용 가능하며, 각각 특정 사용 사례에 최적화되어 있다:
 - BWA-MEM2: 전체 유전체 정렬에 널리 사용되는 도구로, BWA-MEM의 더 빠른 버전이다.
@@ -244,7 +244,7 @@ ASCII 문자는 Phred 점수를 나타내는 데 사용되며, 현재 표준인 
 
 ![해밍 거리](../assets/images/hamming-distance.png)
 
-**Figure 3.18** 해밍 거리 - 두 문자열 간의 차이를 측정하는 방법
+**Figure 3.19** 해밍 거리 - 두 문자열 간의 차이를 측정하는 방법
 
 Needleman-Wunsch(NW) 알고리즘은 전역 정렬(global alignment)을 위한 동적 프로그래밍 접근 방식이다. 이 알고리즘은 두 시퀀스의 처음부터 끝까지 모두 정렬하며, 길이가 유사한 두 시퀀스를 비교할 때 적합하다.
 
@@ -486,7 +486,7 @@ SAM(Sequence Alignment/Map) 포맷은 정렬된 시퀀스 데이터를 저장하
 
 ![SAM 파일 형식](../assets/images/sam-format.png)
 
-**Figure 3.19** SAM 파일 형식 - 정렬된 시퀀스 데이터의 표준 텍스트 형식
+**Figure 3.20** SAM 파일 형식 - 정렬된 시퀀스 데이터의 표준 텍스트 형식
 
 CIGAR 문자열은 일련의 작업과 길이 쌍으로 구성되며, 예를 들어 "2S5M2I4M1D5M6S"는 첫 2개 염기가 소프트 클리핑되고, 다음 5개 염기가 참조 시퀀스와 정렬되며, 2개 염기가 삽입되고, 다음 4개 염기가 참조 시퀀스와 정렬되고, 참조 시퀀스에서 1개 염기가 삭제되고, 다음 5개 염기가 참조 시퀀스와 정렬되며, 마지막 6개 염기가 소프트 클리핑됨을 나타낸다.
 
@@ -494,4 +494,4 @@ CIGAR 문자열은 참조 시퀀스와 리드 간의 정확한 정렬 관계를 
 
 ![CIGAR 문자열](../assets/images/cigar-string.png)
 
-**Figure 3.20** CIGAR 문자열 - 리드와 참조 시퀀스 간의 정렬 관계 표현
+**Figure 3.21** CIGAR 문자열 - 리드와 참조 시퀀스 간의 정렬 관계 표현
