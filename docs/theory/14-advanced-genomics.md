@@ -182,11 +182,11 @@ DNA와 단백질이 등장하기 이전의 원시 생명체는 RNA만으로 자�
 
 ![재배종과 야생종 감자](../assets/images/cultivated-and-wild-potatoes.png)
 
-**Figure 14.12** 재배종과 야생종 감자 - 4배체 재배 감자와 2배체 야생 감자의 수확량과 품질 차이
+**Figure 14.12** 재배종과 야생종 감자 - 4배체 재배 감자와 2배체 야생 감자의 크기 차이
 
 ![야생 바나나](../assets/images/wild-bananas.png)
 
-**Figure 14.13** 야생 바나나 - 3배체 재배 바나나와 2배체 야생 바나나의 씨았 유무와 과실 특성 비교
+**Figure 14.13** 야생 바나나 - 2배체 야생 바나나
 
 ## 14.3 유전체 편집 기술
 
@@ -194,11 +194,11 @@ DNA와 단백질이 등장하기 이전의 원시 생명체는 RNA만으로 자�
 
 ![CRISPR 희귀질환 치료](../assets/images/crispr-cures-rare-diseases.png)
 
-**Figure 14.14** CRISPR 희귀질환 치료 - CRISPR 기술을 이용한 다양한 희귀 유전 질환의 치료 사례들
+**Figure 14.14** CRISPR 희귀질환 치료 - CRISPR 기술을 이용한 선천성 실명질환 치료 사례
 
 ![CRISPR 항암 치료](../assets/images/crispr-against-cancers.jpg)
 
-**Figure 14.15** CRISPR 항암 치료 - CRISPR 기술을 활용한 암 치료의 다양한 접근법과 임상 시험 현황
+**Figure 14.15** CRISPR 항암 치료 - CRISPR 기술을 활용한 암 치료법 개발
 
 ### 14.3.1 유전체 편집 기술의 발전사
 
@@ -210,7 +210,7 @@ DNA와 단백질이 등장하기 이전의 원시 생명체는 RNA만으로 자�
 
 ![CRISPR 유전체 편집](../assets/images/crispr-genome-editing.jpg)
 
-**Figure 14.16** CRISPR 유전체 편집 - CRISPR/Cas9 시스템의 기본 구성 요소와 DNA 절단 메커니즘
+**Figure 14.16** CRISPR 유전체 편집 - CRISPR/Cas9 시스템의 DNA 절단 메커니즘
 
 ### 14.3.2 CRISPR/Cas 시스템의 구조와 원리
 
@@ -231,7 +231,7 @@ Cas9 단백질은 HNH와 RuvC라는 두 개의 Nuclease 도메인을 가지고 �
 
 ![CRISPR PAM과 sgRNA](../assets/images/crispr-pam-and-sgrna.png)
 
-**Figure 14.17** CRISPR PAM과 sgRNA - PAM 서열 인식과 단일 가이드 RNA의 표적 특이성 결정 메커니즘
+**Figure 14.17** CRISPR PAM과 sgRNA - PAM 서열 인식과 단일 가이드 RNA의 표적 특이성 결정 및 절단 메커니즘
 
 ### 14.3.3 염기 편집 기술
 
