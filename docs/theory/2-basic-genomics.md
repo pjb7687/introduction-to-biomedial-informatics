@@ -197,11 +197,11 @@ DNA 변이가 단백질 코딩 영역에 발생하면 아미노산 변화를 일
 
 ![1000 Genomes Project](../assets/images/1000genomes.png)
 
-**Figure 2.24** 1000 Genomes Project - 인구집단 유전체 다양성 연구
+**Figure 2.20** 1000 Genomes Project - 인구집단 유전체 다양성 연구
 
 ![VCF 형식](../assets/images/vcf.png)
 
-**Figure 2.25** VCF 형식 - 변이 정보 표준 포맷
+**Figure 2.21** VCF 형식 - 변이 정보 표준 포맷
 
 ### 2.3.2 유전체 통합 데이터베이스(gnomAD)
 
@@ -209,7 +209,7 @@ DNA 변이가 단백질 코딩 영역에 발생하면 아미노산 변화를 일
 
 ![gnomAD UMAP](../assets/images/gnomad-umap.png)
 
-**Figure 2.26** gnomAD UMAP - 인구집단별 유전적 구조 시각화
+**Figure 2.22** gnomAD UMAP - 인구집단별 유전적 구조 시각화
 
 ### 2.3.3 dbSNP
 
@@ -222,13 +222,13 @@ dbSNP는 SNP를 포함한 소규모 변이의 무료 공개 데이터베이스�
 
 ![OMIM 데이터베이스](../assets/images/omim.png)
 
-**Figure 2.27** OMIM 데이터베이스
+**Figure 2.23** OMIM 데이터베이스
 
 - ClinVar: NCBI에서 관리하는 유전변이와 질병 관계 데이터베이스
 
 ![ClinVar 데이터베이스](../assets/images/clinvar.png)
 
-**Figure 2.28** ClinVar 데이터베이스
+**Figure 2.24** ClinVar 데이터베이스
 
 ### 2.3.5 희귀 변이 및 국가별 연구
 
@@ -236,13 +236,13 @@ dbSNP는 SNP를 포함한 소규모 변이의 무료 공개 데이터베이스�
 
 ![UK10K 프로젝트](../assets/images/uk10k.png)
 
-**Figure 2.29** UK10K 프로젝트 - 영국 인구집단 희귀변이 연구
+**Figure 2.25** UK10K 프로젝트 - 영국 인구집단 희귀변이 연구
 
 한국에서는 울산 10K 프로젝트가 진행되고 있다.
 
 ![울산 10K 프로젝트](../assets/images/ulsan10k.png)
 
-**Figure 2.30** 울산 10K 프로젝트 - 한국인 유전체 연구
+**Figure 2.26** 울산 10K 프로젝트 - 한국인 유전체 연구
 
 ## 2.4 생물학적 경로와 단백질 구조
 
@@ -260,7 +260,7 @@ dbSNP는 SNP를 포함한 소규모 변이의 무료 공개 데이터베이스�
 
 ![GSEA 분석](../assets/images/gsea.png)
 
-**Figure 2.31** GSEA 분석 - 유전자 집합 농축 분석 결과
+**Figure 2.27** GSEA 분석 - 유전자 집합 농축 분석 결과
 
 ### 2.4.3 단백질 구조 데이터베이스
 
@@ -269,7 +269,7 @@ dbSNP는 SNP를 포함한 소규모 변이의 무료 공개 데이터베이스�
 
 ![PDB 데이터베이스](../assets/images/pdb.png)
 
-**Figure 2.32** PDB 데이터베이스 - 단백질 구조 정보 저장소
+**Figure 2.28** PDB 데이터베이스 - 단백질 구조 정보 저장소
 
 ## 2.5 생명정보학 종합 리소스: NCBI
 
@@ -277,7 +277,7 @@ dbSNP는 SNP를 포함한 소규모 변이의 무료 공개 데이터베이스�
 
 ![NCBI 웹사이트](../assets/images/ncbi-website.png)
 
-**Figure 2.33** NCBI 웹사이트 - 종합 생명정보학 리소스
+**Figure 2.29** NCBI 웹사이트 - 종합 생명정보학 리소스
 
 NCBI 웹사이트는 다음과 같다:
 - NCBI: https://www.ncbi.nlm.nih.gov/
@@ -287,7 +287,7 @@ NCBI에서 제공하는 중요한 서비스 중 하나로 PubMed가 있다. PubM
 
 ![PubMed](../assets/images/pubmed.png)
 
-**Figure 2.34** PubMed - 생명과학 및 의학 논문 데이터베이스
+**Figure 2.30** PubMed - 생명과학 및 의학 논문 데이터베이스
 
 ## 2.6 생명정보학 데이터베이스의 활용
 

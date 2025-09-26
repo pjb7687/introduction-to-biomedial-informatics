@@ -36,7 +36,7 @@ GNU(GNU is not UNIX!)는 자유 소프트웨어 재단의 주요 프로젝트 �
 
 한편, 지구 반대편 핀란드에서는 리누스 토발즈(Linus Torvalds)가 "재미로(just for fun)" 운영체제 커널을 개발하고 있었다. 이 커널은 후에 GNU 프로젝트의 일부로 편입되게 된다.
 
-![리눅스 발표](../../assets/images/linus-releases-linux.png)
+![리눅스 발표](../assets/images/linus-releases-linux.png)
 
 **Figure 18.1** 리누스 토발즈가 리눅스를 처음 발표한 역사적 순간 (1991년)
 
@@ -44,7 +44,7 @@ GNU(GNU is not UNIX!)는 자유 소프트웨어 재단의 주요 프로젝트 �
 
 GNU 프로젝트의 유틸리티와 리눅스 커널의 결합으로 GNU/Linux 시스템이 탄생했다. 이 시스템은 유닉스와 완전히 호환되는 POSIX 준수 시스템으로, 현재 99% 이상의 서버 시스템이 리눅스를 채택하고 있다.
 
-![스톨만과 토발즈](../../assets/images/richard-and-linus.png)
+![스톨만과 토발즈](../assets/images/richard-and-linus.png)
 
 **Figure 18.2** 리처드 스톨만과 리누스 토발즈
 
@@ -86,7 +86,7 @@ GNU 프로젝트의 유틸리티와 리눅스 커널의 결합으로 GNU/Linux �
 
 디렉토리는 파일 및 다른 디렉토리를 포함할 수 있는 논리적 공간을 의미한다. 윈도우의 "폴더"와 같은 개념이다.
 
-![파일 시스템 경로](../../assets/images/linux-paths.png)
+![파일 시스템 경로](../assets/images/linux-paths.png)
 
 **Figure 18.3** 리눅스 파일 시스템의 경로 구조와 절대경로/상대경로
 
@@ -160,7 +160,7 @@ Rosalind는 생명정보학 문제풀이 웹사이트(https://rosalind.info/)로
 - **pwd** (Print Working Directory): 현재 디렉토리 경로 확인
   - 경로가 /로 시작하는 경우 "절대경로", 그렇지 않은 경우 "상대경로"
 
-![pwd 명령어](../../assets/images/pwd.png)
+![pwd 명령어](../assets/images/pwd.png)
 
 **Figure 18.4** pwd 명령어를 통한 현재 작업 디렉토리 확인
 
@@ -192,7 +192,7 @@ Rosalind는 생명정보학 문제풀이 웹사이트(https://rosalind.info/)로
 
 - **htop**: 현재 실행 중인 프로세스 확인
 
-![htop 화면](../../assets/images/htop.png)
+![htop 화면](../assets/images/htop.png)
 
 **Figure 18.5** htop을 이용한 시스템 리소스 모니터링
 
@@ -202,7 +202,7 @@ Rosalind는 생명정보학 문제풀이 웹사이트(https://rosalind.info/)로
 - **zcat / zless**: gz 압축된 파일 내용 확인
 - **nano**: 간단한 텍스트 편집기
 
-![nano 에디터](../../assets/images/nano.png)
+![nano 에디터](../assets/images/nano.png)
 
 **Figure 18.6** nano 텍스트 에디터의 인터페이스와 기본 사용법
 

@@ -54,7 +54,7 @@
 
 ![Central Dogma - 유전정보의 흐름](assets/images/central-theorem.png)
 
-**Figure 1.7** Central Dogma - DNA에서 RNA, 단백질로 이어지는 유전정보의 플름
+**Figure 1.7** Central Dogma - DNA에서 RNA, 단백질로 이어지는 유전정보의 흐름
 
 ![Central Dogma의 세부 메커니즘](assets/images/central-theorem-2.jpg)
 

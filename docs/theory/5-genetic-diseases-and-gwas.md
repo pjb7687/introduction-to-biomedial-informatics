@@ -85,25 +85,21 @@ P-값은 t-분포에서 관찰된 T-값보다 극단적인 값(양쪽 꼬리 부
 
 **Figure 5.3** T분포 P값 계산 - 통계적 유의성 평가를 위한 P값 계산 과정
 
-![P값 개념](../assets/images/p-value.png)
-
-**Figure 5.4** P값 개념 - 통계적 가설 검정에서 P값의 의미
-
 GWAS에서 P-값을 로그 변환하는 이유는 여러 가지가 있다. 첫째, P-값은 0과 1 사이의 값으로 매우 작은 값들(예: 10⁻⁸)이 자주 나타나는데, 이를 그대로 시각화하면 차이를 구별하기 어렵다. -log₁₀(P-값)으로 변환하면 작은 P-값일수록 더 큰 값이 되어 시각적으로 구분하기 쉬워진다. 둘째, 맨해튼 플롯에서 유의수준 5×10⁻⁸은 -log₁₀(5×10⁻⁸) ≈ 7.3이 되어 명확한 기준선을 제공한다. 셋째, 로그 변환을 통해 넓은 범위의 P-값을 효과적으로 표현할 수 있어 전체 유전체에서의 연관성 패턴을 한눈에 파악할 수 있다.
 
 ![맨해튼 플롯 예시](../assets/images/manhattan-plot.png)
 
-**Figure 5.5** 맨해튼 플롯 예시 - GWAS 결과를 시각화한 대표적인 맨해튼 플롯
+**Figure 5.4** 맨해튼 플롯 예시 - GWAS 결과를 시각화한 대표적인 맨해튼 플롯
 
 ![P값 로그 변환](../assets/images/why-log-for-p-values.png)
 
-**Figure 5.6** P값 로그 변환 - GWAS에서 P값을 로그 변환하는 이유와 효과
+**Figure 5.5** P값 로그 변환 - GWAS에서 P값을 로그 변환하는 이유와 효과
 
 가산적 모델 외에도 다른 유전 모델들이 사용될 수 있다. 우성 모델(dominant model)에서는 효과 대립유전자를 1개 이상 가지면 동일한 효과를 보인다고 가정하고, 열성 모델(recessive model)에서는 효과 대립유전자를 2개 가져야만 효과가 나타난다고 가정한다. 실제 GWAS에서는 주로 가산적 모델이 사용되지만, 연구 목적에 따라 다른 모델들도 고려될 수 있다.
 
 ![GWAS 모델](../assets/images/gwas-models.png)
 
-**Figure 5.7** GWAS 모델 - 가산적, 우성, 열성 모델의 비교
+**Figure 5.6** GWAS 모델 - 가산적, 우성, 열성 모델의 비교
 
 ### 5.4.2 P-값의 의미
 
@@ -117,17 +113,17 @@ P-값의 크기를 결정하는 주요 요인들은 다음과 같다:
 
 ![다유전자 위험 점수 개념](../assets/images/polygenic-risk-score.png)
 
-**Figure 5.8** 다유전자 위험 점수 개념 - 여러 유전자 변이의 종합적 효과 평가
+**Figure 5.7** 다유전자 위험 점수 개념 - 여러 유전자 변이의 종합적 효과 평가
 
 예를 들어, 어떤 SNP는 혈압에 큰 영향을 미치지만 데이터의 변동이 작아 낮은 P-값을 보이고, 다른 SNP는 비슷한 효과를 가지지만 데이터의 변동이 커서 상대적으로 높은 P-값을 나타낼 수 있다.
 
 ![GWAS 유의한 SNV](../assets/images/gwas-one-snv-significant.png)
 
-**Figure 5.9** GWAS 유의한 SNV - 통계적으로 유의한 연관성을 보이는 SNP 예시
+**Figure 5.8** GWAS 유의한 SNV - 통계적으로 유의한 연관성을 보이는 SNP 예시
 
 ![GWAS 비유의한 SNV](../assets/images/gwas-one-snv-not-significant.png)
 
-**Figure 5.10** GWAS 비유의한 SNV - 통계적으로 유의하지 않은 연관성을 보이는 SNP 예시
+**Figure 5.9** GWAS 비유의한 SNV - 통계적으로 유의하지 않은 연관성을 보이는 SNP 예시
 
 ### 5.4.3 맨해튼 플롯(Manhattan plot)
 
@@ -135,7 +131,7 @@ P-값의 크기를 결정하는 주요 요인들은 다음과 같다:
 
 ![맨해튼 플롯](../assets/images/manhattan-plot.png)
 
-**Figure 5.11** 맨해튼 플롯 - 전체 유전체에서 SNP들의 연관성을 시각화한 맨해튼 플롯
+**Figure 5.10** 맨해튼 플롯 - 전체 유전체에서 SNP들의 연관성을 시각화한 맨해튼 플롯
 
 맨해튼 플롯의 구성 요소들은 다음과 같다:
 - **X축**: 염색체 별로 정렬된 전체 유전체 상의 SNP 위치
@@ -150,11 +146,11 @@ GWAS를 수행할 때 직면하는 실질적인 문제 중 하나는 분석해�
 
 ![연관 불균형 블록](../assets/images/ld-blocks.png)
 
-**Figure 5.12** 연관 불균형 블록 - 함께 유전되는 SNP들의 블록 구조
+**Figure 5.11** 연관 불균형 블록 - 함께 유전되는 SNP들의 블록 구조
 
 ![연관 불균형 구조](../assets/images/ld-structure.png)
 
-**Figure 5.13** 연관 불균형 구조 - SNP 간의 연관 불균형 패턴과 상관관계
+**Figure 5.12** 연관 불균형 구조 - SNP 간의 연관 불균형 패턴과 상관관계
 
 ### 5.5.1 해플로타입(Haplotype)
 
@@ -166,7 +162,7 @@ GWAS를 수행할 때 직면하는 실질적인 문제 중 하나는 분석해�
 
 ![한중일 연관 불균형 구조](../assets/images/ld-structure-kr-jp-cn.jpg)
 
-**Figure 5.14** 한중일 연관 불균형 구조 - 동아시아 인구 집단에서의 연관 불균형 패턴 비교
+**Figure 5.13** 한중일 연관 불균형 구조 - 동아시아 인구 집단에서의 연관 불균형 패턴 비교
 
 ### 5.5.2 HapMap 프로젝트와 연관 불균형
 
@@ -174,7 +170,7 @@ GWAS를 수행할 때 직면하는 실질적인 문제 중 하나는 분석해�
 
 ![HapMap 프로젝트](../assets/images/hapmap-logo.jpg)
 
-**Figure 5.15** HapMap 프로젝트 - 인간 해플로타입 지도 작성을 위한 국제 공동 연구
+**Figure 5.14** HapMap 프로젝트 - 인간 해플로타입 지도 작성을 위한 국제 공동 연구
 
 HapMap 프로젝트의 성과 덕분에 우리는 어떤 SNP들이 함께 유전되는지, 즉 어떤 SNP를 분석하면 주변의 다른 SNP들의 정보도 함께 얻을 수 있는지를 알게 되었다. 이를 통해 GWAS의 효율성을 크게 향상시킬 수 있게 되었다.
 
@@ -194,7 +190,7 @@ PRS는 개인이 가지고 있는 여러 위험 변이들의 효과를 종합하
 
 ![PRS 소개](../assets/images/gwas-introduction.jpg)
 
-**Figure 5.16** PRS 소개 - 다유전자 위험 점수 계산 과정과 개인별 위험도 평가 예시
+**Figure 5.15** PRS 소개 - 다유전자 위험 점수 계산 과정과 개인별 위험도 평가 예시
 
 위 표는 가산적 모델(additive model)을 가정한 PRS 계산의 실제 사례를 보여준다. Fred, Alice, Greg 세 명의 개인에 대해 8개의 SNP(rs12395, rs44346, rs72557 등)의 유전자형과 효과 크기를 바탕으로 PRS를 계산한 예이다. 각 SNP마다 효과 대립유전자(Effect allele)와 효과 크기(Effect size)가 정해져 있으며, 가산적 모델에 따라 효과 대립유전자의 개수에 비례하여 효과가 결정된다.
 
@@ -208,7 +204,7 @@ PRS는 개인 맞춤 의학에서 질병 예방과 조기 진단에 활용될 �
 
 ![다유전자 위험 점수](../assets/images/polygenic-risk-score.png)
 
-**Figure 5.17** 다유전자 위험 점수 분포 - 인구 집단에서 PRS의 분포와 질병 위험도 관계
+**Figure 5.16** 다유전자 위험 점수 분포 - 인구 집단에서 PRS의 분포와 질병 위험도 관계
 
 하지만 PRS에는 중요한 한계들이 있다. 첫째, 유전자-유전자 상호작용이나 유전자-환경 상호작용 같은 복잡한 요인들을 충분히 반영하지 못한다. 둘째, 대부분의 GWAS가 유럽계 인구를 대상으로 수행되어 다른 인구 집단에서는 정확도가 떨어질 수 있다. 셋째, 환경적 요인이나 생활 습관의 영향은 고려되지 않는다.
 
@@ -236,11 +232,11 @@ GO는 분자 수준부터 생물체 수준까지 생물학적 시스템을 모�
 
 ![유전자 온톨로지](../assets/images/gene-ontology.png)
 
-**Figure 5.18** 유전자 온톨로지 - GO 용어의 계층 구조와 세 가지 주요 영역
+**Figure 5.17** 유전자 온톨로지 - GO 용어의 계층 구조와 세 가지 주요 영역
 
 ![GO 용어 상세](../assets/images/go-term-details.png)
 
-**Figure 5.19** GO 용어 상세 - 특정 GO 용어에 대한 상세 정보와 관련 유전자 목록
+**Figure 5.18** GO 용어 상세 - 특정 GO 용어에 대한 상세 정보와 관련 유전자 목록
 
 ### 5.7.2 다양한 경로 데이터베이스
 
@@ -250,29 +246,29 @@ GO는 분자 수준부터 생물체 수준까지 생물학적 시스템을 모�
 
 ![KEGG 경로](../assets/images/kegg.png)
 
-**Figure 5.20** KEGG 경로 - KEGG 데이터베이스의 생물학적 경로 예시
+**Figure 5.19** KEGG 경로 - KEGG 데이터베이스의 생물학적 경로 예시
 
 - Reactome Database: https://reactome.org/
 
 ![Reactome](../assets/images/reactome.png)
 
-**Figure 5.21** Reactome 경로 - Reactome 데이터베이스의 생물학적 반응 네트워크
+**Figure 5.20** Reactome 경로 - Reactome 데이터베이스의 생물학적 반응 네트워크
 
 ![Reactome 데이터베이스](../assets/images/reactome.jpg)
 
-**Figure 5.22** Reactome 데이터베이스 - 생물학적 경로와 반응을 체계적으로 정리한 데이터베이스
+**Figure 5.21** Reactome 데이터베이스 - 생물학적 경로와 반응을 체계적으로 정리한 데이터베이스
 
 - QIAGEN Ingenuity Pathway Analysis (IPA): https://digitalinsights.qiagen.com/products-overview/discovery-insightsportfolio/analysis-and-visualization/qiagen-ipa/
 
 ![IPA 경로 분석](../assets/images/ipa.png)
 
-**Figure 5.23** Ingenuity Pathway Analysis (IPA) - 유전자 네트워크와 경로 분석을 위한 상용 도구
+**Figure 5.22** Ingenuity Pathway Analysis (IPA) - 유전자 네트워크와 경로 분석을 위한 상용 도구
 
 - WikiPathways: https://www.wikipathways.org/
 
 ![WikiPathways 플랫폼](../assets/images/wikipathways.png)
 
-**Figure 5.24** WikiPathways 플랫폼 - 커뮤니티 기반 생물학적 경로 큐레이션 플랫폼
+**Figure 5.23** WikiPathways 플랫폼 - 커뮤니티 기반 생물학적 경로 큐레이션 플랫폼
 
 ### 5.7.3 초기하 분포(Hypergeometric Distribution)
 
@@ -328,7 +324,7 @@ ORA 결과표에서는 일반적으로 원래 P-값, 보정된 P-값, q-value �
 
 ![Enrichr 도구](../assets/images/enrichr.png)
 
-**Figure 5.25** Enrichr 도구 - 과잉 표현 분석을 위한 웹 기반 도구 인터페이스
+**Figure 5.24** Enrichr 도구 - 과잉 표현 분석을 위한 웹 기반 도구 인터페이스
 
 ## 5.8 결론
 
