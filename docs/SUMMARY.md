@@ -7,7 +7,7 @@
 * [2. 유전체학 기초](theory/2-basic-genomics.md)
 * [3. 차세대 시퀀싱](theory/3-ngs.md)
 * [4. 변이와 진화](theory/4-variant-and-evolution.md)
-* [5. 유전질환과 GWAS](theory/5-genetic-diseases-and-gwas.md)
+* [5. 유전질환과 GWAS](theory/5-genetic-disorders-and-gwas.md)
 * [6. 암](theory/6-cancer.md)
 * [7. 비코딩 유전체와 발현 조절](theory/7-non-coding-genome.md)
 * [8. 후성유전체학](theory/8-epigenomics.md)
